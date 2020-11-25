@@ -1,5 +1,6 @@
 <html lang="en">
 <?php require_once 'add.php'; ?>
+
 <head>
     <title>Conciergerie</title>
     <meta charset="utf-8">
@@ -11,7 +12,7 @@
 
 <body>
 
-    <div class="container-fluid">
+<div class="container-fluid">
         <div class="row text-center">
             <h2>Service Conciergerie <i><img src="img/image.jpg" style="width:100px"></i></h2>
 
@@ -26,10 +27,11 @@
 
 
                 </div>
+                <div> <a  href="index.php?action=crud" > info intervention</a></div>
             </div>
         </div>
     </div>
     <div class="container">
   <h2>Administration</h2>
   <?php echo $contenuAafficher; ?>
- 
+  
